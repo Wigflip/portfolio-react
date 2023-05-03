@@ -25,8 +25,9 @@ function App() {
   ];
 
   //JSX can be used in variables
-  const projectLength = projects.length;
   // const emptyproject = <p>I have {projectLength} projects!</p>;
+  const projectLength = projects.length;
+
 
   //Can put the result of a condition into a variable and point to the varibale in the return JSX
   let emptyproject = <p>I don't have any projects</p>;
